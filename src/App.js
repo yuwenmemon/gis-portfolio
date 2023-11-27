@@ -5,6 +5,7 @@ import MainPage from './MainPage';
 import ResumePage from './ResumePage';
 import ProjectPage from './ProjectPage';
 import Footer from './Footer';
+import './App.css';
 
 function App() {
   return (

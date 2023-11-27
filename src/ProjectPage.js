@@ -2,11 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import './ProjectPage.css'; // Make sure to import the CSS file
+import './ProjectPage.css';
 
 function ProjectPage() {
-  const { projectId } = useParams(); // Assuming you're using URL params
-  const project = getProjectDetails(projectId); // Implement this function based on how you fetch project data
+  const { projectId } = useParams();
+  const project = getProjectDetails(projectId);
 
   return (
     <div>
@@ -19,7 +19,7 @@ function ProjectPage() {
           {project.projectLink && (
             <a
               href={project.projectLink}
-              className="project-page-link"
+              className="project-page-link no-underline-on-hover"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,10 +35,7 @@ function ProjectPage() {
   );
 }
 
-// Dummy function - replace with your actual data fetching logic
 function getProjectDetails(projectId) {
-  // Fetch project details based on projectId
-  // Return an object with title, description, imageUrl
   switch (projectId) {
     case 'sonoma_hazard':
       return {

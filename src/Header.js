@@ -18,10 +18,10 @@ function Header() {
         </div>
       </div>
       <nav className="header-nav">
-        <NavLink to="/" exact className="nav-link">
+        <NavLink to="/" exact className="nav-link no-underline-on-hover">
           Home
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
+        <NavLink to="/resume" className="nav-link no-underline-on-hover">
           Resume
         </NavLink>
       </nav>
