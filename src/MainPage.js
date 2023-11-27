@@ -55,6 +55,8 @@ function MainPage() {
         <a
           href="https://github.com/yuwenmemon"
           className="highlighted no-underline-on-hover"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Software Engineer
         </a>{' '}
@@ -66,6 +68,8 @@ function MainPage() {
         <a
           href="https://maps.app.goo.gl/ccDp66nfxdoXkBMGA"
           className="highlighted no-underline-on-hover"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           San Francisco, CA
         </a>
