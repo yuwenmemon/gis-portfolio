@@ -1,10 +1,10 @@
-.small-header {
-  background-color: #f4f4f4; /* Or any other color */
-  padding: 20px;
-  text-align: center;
+.project-page-header {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 20px 0px 20px;
 }
 
-.project-content {
+.project-page-content {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
@@ -12,17 +12,62 @@
   padding: 20px;
 }
 
-.project-description {
+.project-page-description {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding-right: 20px; /* Adjust spacing between text and image */
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #333;
 }
 
-.project-image {
+.project-page-image {
   flex: 1;
 }
 
-.project-image img {
+.project-page-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .project-page-content {
+    flex-direction: column; /* Stack the children vertically */
+  }
+
+  .project-page-description,
+  .project-page-image {
+    width: 100%; /* Full width for smaller screens */
+    margin-bottom: 20px; /* Add some space between the elements */
+  }
+
+  .project-page-description {
+    order: 2; /* Optionally switch the order of description and image */
+  }
+
+  .project-page-image {
+    order: 1;
+  }
+}
+
+.project-page-link {
+  max-width: 150px;
+  margin-top: 20px; /* Space above the link */
+  padding: 10px 15px;
+  background-color: #007bff; /* Adjust color as needed */
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.project-page-link:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
 }
