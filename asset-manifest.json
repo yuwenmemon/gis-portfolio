@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gis-portfolio/static/css/main.00c78353.css",
-    "main.js": "/gis-portfolio/static/js/main.5261d36b.js",
+    "main.css": "/gis-portfolio/static/css/main.dddb9d85.css",
+    "main.js": "/gis-portfolio/static/js/main.c73728c0.js",
     "static/js/787.32820eef.chunk.js": "/gis-portfolio/static/js/787.32820eef.chunk.js",
     "static/media/header.png": "/gis-portfolio/static/media/header.00304081f1095c3a167a.png",
     "index.html": "/gis-portfolio/index.html",
-    "main.00c78353.css.map": "/gis-portfolio/static/css/main.00c78353.css.map",
-    "main.5261d36b.js.map": "/gis-portfolio/static/js/main.5261d36b.js.map",
+    "main.dddb9d85.css.map": "/gis-portfolio/static/css/main.dddb9d85.css.map",
+    "main.c73728c0.js.map": "/gis-portfolio/static/js/main.c73728c0.js.map",
     "787.32820eef.chunk.js.map": "/gis-portfolio/static/js/787.32820eef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00c78353.css",
-    "static/js/main.5261d36b.js"
+    "static/css/main.dddb9d85.css",
+    "static/js/main.c73728c0.js"
   ]
 }
