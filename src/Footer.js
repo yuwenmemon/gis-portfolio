@@ -9,21 +9,27 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="linkedin-icon.svg" alt="LinkedIn" />
+        <img
+          src={process.env.PUBLIC_URL + '/linkedin-icon.svg'}
+          alt="LinkedIn"
+        />
       </a>
       <a
         href="https://github.com/yuwenmemon"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="github-icon.svg" alt="GitHub" />
+        <img src={process.env.PUBLIC_URL + '/github-icon.svg'} alt="GitHub" />
       </a>
       <a
         href="https://www.instagram.com/yuwenmemon/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="instagram-icon.svg" alt="Instagram" />
+        <img
+          src={process.env.PUBLIC_URL + '/instagram-icon.svg'}
+          alt="Instagram"
+        />
       </a>
     </footer>
   );

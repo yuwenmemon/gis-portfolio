@@ -29,22 +29,21 @@
 }
 
 .pdf-download-link {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .pdf-download-link a {
-    font-size: 18px; /* Adjust size as needed */
-    background-color: #007bff; /* Choose a color that fits your theme */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .pdf-download-link a:hover {
-    background-color: #0056b3; /* Slightly darker shade for hover effect */
-  }
-    
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pdf-download-link a {
+  font-size: 18px; /* Adjust size as needed */
+  background-color: #007bff; /* Choose a color that fits your theme */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pdf-download-link a:hover {
+  background-color: #0056b3; /* Slightly darker shade for hover effect */
+}

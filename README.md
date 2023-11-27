@@ -19,7 +19,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## Deployment
+
 This uses [Github Pages](https://pages.github.com/) for a quick and easy solution for hosting. To prep the site for deployment you can run
+
 ```
 npm run build
 ```
@@ -31,6 +33,7 @@ The build is minified and the filenames include the hashes.\
 The app is ready to be deployed!
 
 To do that, simply run
+
 ```
 npm run deploy
 ```
@@ -40,13 +43,13 @@ This command builds the app and pushes the build to the gh-pages branch of the r
 ## Configuring Github Pages
 
 1. Install `gh-pages` as a dev dependency:
-    ```
-    npm install gh-pages --save-dev
-    ```
+   ```
+   npm install gh-pages --save-dev
+   ```
 1. Update the `homepage` field in `package.json`:
-    ```
-    "homepage": "https://your-username.github.io/your-repo-name",
-    ```
+   ```
+   "homepage": "https://your-username.github.io/your-repo-name",
+   ```
 1. Go to your repository on GitHub.
 1. Click on the "Settings" tab.
 1. Scroll down to the "GitHub Pages" section.

@@ -26,7 +26,14 @@ const ResumePage = () => {
   return (
     <div className="resume-container">
       <div className="pdf-download-link">
-        <a href="YuwenMemon_Resume2023_public.pdf" target="_blank" rel="noopener noreferrer" className="no-underline-on-hover">One-Page Resume (PDF)</a>
+        <a
+          href={process.env.PUBLIC_URL + '/YuwenMemon_Resume2023_public.pdf'}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="no-underline-on-hover"
+        >
+          One-Page Resume (PDF)
+        </a>
       </div>
 
       <h1>Experience</h1>
@@ -34,7 +41,7 @@ const ResumePage = () => {
       <ExperienceSection
         title="Expensify, San Francisco, CA"
         period="Software Engineer - Senior Leader (2022 - Present), Sofware Engineer - Leader (2019-2022), Software Engineer (2015 - 2019)"
-        logo="logos/expensify.png"
+        logo={process.env.PUBLIC_URL + '/logos/expensify.png'}
       >
         <li>
           Led key projects, including user interface enhancements and pricing
@@ -51,9 +58,9 @@ const ResumePage = () => {
       </ExperienceSection>
 
       <ExperienceSection
-        title="MasterCard Worldwide, O’Fallon, MO"
+        title="MasterCard Worldwide, O'Fallon, MO"
         period="Software Engineering Intern (Summer 2014)"
-        logo="logos/mastercard.png"
+        logo={process.env.PUBLIC_URL + '/logos/mastercard.png'}
       >
         <li>Automated customer onboarding documents generation.</li>
         <li>
@@ -65,8 +72,8 @@ const ResumePage = () => {
       <EducationSection
         title="Washington University in St. Louis"
         details="B.S. in Computer Science (May 2015; GPA: 3.71)
-                 National Merit Scholarship, Dean’s List (6x), Sigma Nu Fraternity, Upsilon Phi Epsilon, Congress of the South 40, Teaching Assistant"
-        logo={'logos/washu.png'}
+                 National Merit Scholarship, Dean's List (6x), Sigma Nu Fraternity, Upsilon Phi Epsilon, Congress of the South 40, Teaching Assistant"
+        logo={process.env.PUBLIC_URL + '/logos/washu.png'}
       />
 
       <h1>Skills</h1>

@@ -51,8 +51,9 @@ function getProjectDetails(projectId) {
             for buildings.
           </div>
         ),
-        imageUrl: 'sonoma2.png',
-        projectLink: 'projects/Memon_Final_Assignment.pdf',
+        imageUrl: process.env.PUBLIC_URL + '/sonoma2.png',
+        projectLink:
+          process.env.PUBLIC_URL + '/projects/Memon_Final_Assignment.pdf',
       };
     case 'sonoma_earthquake':
       return {
@@ -69,8 +70,9 @@ function getProjectDetails(projectId) {
             shaking zones and the community buildings that fall within them.
           </div>
         ),
-        imageUrl: 'earthquake2.png',
-        projectLink: 'projects/Sonoma_Web_View/index.html',
+        imageUrl: process.env.PUBLIC_URL + '/earthquake2.png',
+        projectLink:
+          process.env.PUBLIC_URL + '/projects/Sonoma_Web_View/index.html',
       };
     case 'riverside':
       return {
@@ -86,8 +88,9 @@ function getProjectDetails(projectId) {
             land within the hazard zones.
           </div>
         ),
-        imageUrl: 'riverside4.png',
-        projectLink: 'projects/Memon_Module6_Assignment.pdf',
+        imageUrl: process.env.PUBLIC_URL + '/riverside4.png',
+        projectLink:
+          process.env.PUBLIC_URL + '/projects/Memon_Module6_Assignment.pdf',
       };
     case 'atlas':
       return {
@@ -117,8 +120,9 @@ function getProjectDetails(projectId) {
             a single layout template.
           </div>
         ),
-        imageUrl: 'atlas1.png',
-        projectLink: 'projects/Memon Module 4 Assignment.pdf',
+        imageUrl: process.env.PUBLIC_URL + '/atlas1.png',
+        projectLink:
+          process.env.PUBLIC_URL + '/projects/Memon Module 4 Assignment.pdf',
       };
     case 'viewshed':
       return {
@@ -139,8 +143,9 @@ function getProjectDetails(projectId) {
             for cell service within Los Angeles County.
           </div>
         ),
-        imageUrl: 'viewshed2.png',
-        projectLink: 'projects/Memon Module 3 Assignment.pdf',
+        imageUrl: process.env.PUBLIC_URL + '/viewshed2.png',
+        projectLink:
+          process.env.PUBLIC_URL + '/projects/Memon Module 3 Assignment.pdf',
       };
     case 'sffilmstory':
       return {
@@ -155,7 +160,7 @@ function getProjectDetails(projectId) {
             films that have been shot in San Francisco over the years.
           </div>
         ),
-        imageUrl: 'film2.png',
+        imageUrl: process.env.PUBLIC_URL + '/film2.png',
         projectLink:
           'https://earth.google.com/earth/d/1VkVogKiIN75BjANd2VLD5l5F2j7L49s-?usp=sharing',
       };
@@ -163,7 +168,7 @@ function getProjectDetails(projectId) {
       return {
         title: 'Not Found',
         description: 'Oops! Project not found.',
-        imageUrl: 'headshot.jpg',
+        imageUrl: process.env.PUBLIC_URL + '/headshot.jpg',
       };
   }
 }

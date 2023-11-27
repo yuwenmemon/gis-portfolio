@@ -12,7 +12,12 @@ function Header() {
     <header>
       <div className="header-background">
         <div className={`${headerClass}-content`}>
-          {!isProjectPage && <img src="headshot.jpg" alt="Yuwen Memon" />}
+          {!isProjectPage && (
+            <img
+              src={process.env.PUBLIC_URL + '/headshot.jpg'}
+              alt="Yuwen Memon"
+            />
+          )}
           <h2>Yuwen Memon</h2>
           {!isProjectPage && <p>GIS Developer</p>}
         </div>
