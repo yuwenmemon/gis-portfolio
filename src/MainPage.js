@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './MainPage.css'; // Make sure to import the CSS file
+import './MainPage.css';
 
 function MainPage() {
   const projects = [
