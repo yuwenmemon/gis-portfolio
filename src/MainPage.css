@@ -1,10 +1,41 @@
+.main-page-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px 50px 20px;
+}
+
+.about-me {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.6em; /* Adjust size as needed */
+}
+
+.highlighted {
+  font-weight: bold;
+  color: #007bff; /* Choose a text color */
+  text-decoration: none; /* Removes underline from links */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  padding: 2px 5px; /* Transparent padding */
+  display: inline-block; /* To properly apply padding */
+  margin: 0 -5px; /* Negative margin to offset padding */
+}
+
+.highlighted:hover {
+  background-color: #d8ebf9; /* Highlight color on hover */
+  border-radius: 4px; /* Optional: rounded corners for the highlight */
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.5em; /* Adjust size as needed */
+}
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center the tiles */
   padding: 30px 20px 50px 20px;
-  max-width: 1200px; /* Maximum width of the container */
-  margin: auto; /* Center the container */
 }
 
 .project-tile {

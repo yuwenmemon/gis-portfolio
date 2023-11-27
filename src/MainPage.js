@@ -49,18 +49,42 @@ function MainPage() {
   ];
 
   return (
-    <div className="project-container">
-      {projects.map((project) => (
-        <div key={project.id} className="project-tile">
-          <Link to={project.link}>
-            <div className="project-image">
-              <img src={project.imageUrl} alt={project.title} />
-            </div>
-            <div className="project-caption">{project.caption}</div>
-          </Link>
-          <h3>{project.title}</h3>
-        </div>
-      ))}
+    <div className="main-page-container">
+      <div className="about-me">
+        Hi! I'm a{' '}
+        <a
+          href="https://github.com/yuwenmemon"
+          className="highlighted no-underline-on-hover"
+        >
+          Software Engineer
+        </a>{' '}
+        with an interest in{' '}
+        <span className="highlighted no-underline-on-hover">GIS</span>,{' '}
+        <span className="highlighted no-underline-on-hover">maps</span>, and{' '}
+        <span className="highlighted no-underline-on-hover">cartography</span>.
+        I currently live and work in{' '}
+        <a
+          href="https://maps.app.goo.gl/ccDp66nfxdoXkBMGA"
+          className="highlighted no-underline-on-hover"
+        >
+          San Francisco, CA
+        </a>
+        .
+      </div>
+      <h2 className="portfolio-header">GIS Portfolio</h2>
+      <div className="project-container">
+        {projects.map((project) => (
+          <div key={project.id} className="project-tile">
+            <Link to={project.link}>
+              <div className="project-image">
+                <img src={project.imageUrl} alt={project.title} />
+              </div>
+              <div className="project-caption">{project.caption}</div>
+            </Link>
+            <h3>{project.title}</h3>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
