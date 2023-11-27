@@ -28,9 +28,9 @@ function getProjectDetails(projectId) {
   // Fetch project details based on projectId
   // Return an object with title, description, imageUrl
   return {
-    title: "Project Title",
-    description: "Project Description...",
-    imageUrl: "path_to_project_image.jpg"
+    title: 'Project Title',
+    description: 'Project Description...',
+    imageUrl: 'path_to_project_image.jpg',
   };
 }
 

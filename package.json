@@ -18,7 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prettier": "prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +40,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.0",
+    "prettier": "^3.1.0"
   },
   "homepage": "https://yuwenmemon.github.io/gis-portfolio"
 }
