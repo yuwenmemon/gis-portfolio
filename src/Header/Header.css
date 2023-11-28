@@ -1,0 +1,56 @@
+header {
+  width: 100%;
+}
+
+.header-background {
+  background: url('./header.png');
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.header-content {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-header-content {
+  display: inline-block;
+  padding: 20px;
+}
+
+header img {
+  max-width: 150px; /* Adjust size as needed */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 2em; /* Adjust size as needed */
+}
+
+header p {
+  font-size: 1.2em; /* Adjust size as needed */
+  color: #666;
+}
+
+.header-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-link {
+  margin: 0 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #007bff; /* Highlight color */
+  color: #007bff; /* Adjust if needed */
+}

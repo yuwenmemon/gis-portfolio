@@ -1,10 +1,10 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './Header';
-import MainPage from './MainPage';
-import ResumePage from './ResumePage';
-import ProjectPage from './ProjectPage';
-import Footer from './Footer';
+import Header from './Header/Header';
+import MainPage from './MainPage/MainPage';
+import ResumePage from './ResumePage/ResumePage';
+import ProjectPage from './ProjectPage/ProjectPage';
+import Footer from './Footer/Footer';
 import './App.css';
 
 function App() {
