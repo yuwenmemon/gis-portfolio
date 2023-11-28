@@ -1,16 +1,28 @@
 {
   "files": {
     "main.css": "/gis-portfolio/static/css/main.88cdbedf.css",
-    "main.js": "/gis-portfolio/static/js/main.4e95ae60.js",
+    "main.js": "/gis-portfolio/static/js/main.068670f0.js",
     "static/js/787.32820eef.chunk.js": "/gis-portfolio/static/js/787.32820eef.chunk.js",
+    "static/media/film.png": "/gis-portfolio/static/media/film.1f054bc29ea14e571671.png",
+    "static/media/earthquake.png": "/gis-portfolio/static/media/earthquake.e1dd9dc72a38cc1e431b.png",
+    "static/media/viewshed.png": "/gis-portfolio/static/media/viewshed.77cb5213035e7c20a129.png",
+    "static/media/sonoma.png": "/gis-portfolio/static/media/sonoma.0376c718a0645730eede.png",
     "static/media/header.png": "/gis-portfolio/static/media/header.00304081f1095c3a167a.png",
+    "static/media/riverside.png": "/gis-portfolio/static/media/riverside.ae4a543a66e9b1debcd4.png",
+    "static/media/atlas.png": "/gis-portfolio/static/media/atlas.c0f596c15e6ae6e450bc.png",
+    "static/media/headshot.jpg": "/gis-portfolio/static/media/headshot.cfa15747bf3f27ef7e95.jpg",
+    "static/media/expensify.png": "/gis-portfolio/static/media/expensify.59a21da0bba81059a15c.png",
+    "static/media/washu.png": "/gis-portfolio/static/media/washu.c989b4e249a3f4a29003.png",
+    "static/media/instagram-icon.svg": "/gis-portfolio/static/media/instagram-icon.605807afd6f2fdfc2b5dc1f822d7164e.svg",
+    "static/media/github-icon.svg": "/gis-portfolio/static/media/github-icon.c1e08337501b97e58816bb193d848f53.svg",
     "index.html": "/gis-portfolio/index.html",
+    "static/media/linkedin-icon.svg": "/gis-portfolio/static/media/linkedin-icon.252c0a746413535af23c70bb92fc866c.svg",
     "main.88cdbedf.css.map": "/gis-portfolio/static/css/main.88cdbedf.css.map",
-    "main.4e95ae60.js.map": "/gis-portfolio/static/js/main.4e95ae60.js.map",
+    "main.068670f0.js.map": "/gis-portfolio/static/js/main.068670f0.js.map",
     "787.32820eef.chunk.js.map": "/gis-portfolio/static/js/787.32820eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88cdbedf.css",
-    "static/js/main.4e95ae60.js"
+    "static/js/main.068670f0.js"
   ]
 }
