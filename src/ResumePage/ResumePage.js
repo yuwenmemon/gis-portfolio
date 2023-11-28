@@ -43,7 +43,7 @@ const ResumePage = () => {
 
       <ExperienceSection
         title="Expensify, San Francisco, CA"
-        period="Software Engineer - Senior Leader (2022 - Present), Sofware Engineer - Leader (2019-2022), Software Engineer (2015 - 2019)"
+        period="Software Engineer - Senior Leader (2022 - Present), Software Engineer - Leader (2019-2022), Software Engineer (2015 - 2019)"
         logo={expensifyLogo}
       >
         <li>
