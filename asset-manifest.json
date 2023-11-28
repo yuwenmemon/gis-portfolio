@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gis-portfolio/static/css/main.88cdbedf.css",
-    "main.js": "/gis-portfolio/static/js/main.068670f0.js",
+    "main.js": "/gis-portfolio/static/js/main.fbf3b24d.js",
     "static/js/787.32820eef.chunk.js": "/gis-portfolio/static/js/787.32820eef.chunk.js",
     "static/media/film.png": "/gis-portfolio/static/media/film.1f054bc29ea14e571671.png",
     "static/media/earthquake.png": "/gis-portfolio/static/media/earthquake.e1dd9dc72a38cc1e431b.png",
@@ -18,11 +18,11 @@
     "index.html": "/gis-portfolio/index.html",
     "static/media/linkedin-icon.svg": "/gis-portfolio/static/media/linkedin-icon.252c0a746413535af23c70bb92fc866c.svg",
     "main.88cdbedf.css.map": "/gis-portfolio/static/css/main.88cdbedf.css.map",
-    "main.068670f0.js.map": "/gis-portfolio/static/js/main.068670f0.js.map",
+    "main.fbf3b24d.js.map": "/gis-portfolio/static/js/main.fbf3b24d.js.map",
     "787.32820eef.chunk.js.map": "/gis-portfolio/static/js/787.32820eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88cdbedf.css",
-    "static/js/main.068670f0.js"
+    "static/js/main.fbf3b24d.js"
   ]
 }
