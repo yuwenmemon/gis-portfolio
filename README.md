@@ -4,6 +4,9 @@ This is a project for Module 8 of GEOG XL181B - 392308: Advanced Geographic Info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![screenshot](https://github.com/yuwenmemon/gis-portfolio/assets/4741899/f6c21992-47ae-4403-8d80-bbfb0bea7c74)
+
+
 ## Development
 
 In the project directory, you can run:
